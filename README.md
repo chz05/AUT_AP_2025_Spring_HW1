@@ -60,7 +60,7 @@ _With dry-run mode:_
 
 ## **Objective:**
 
-Implement a function that takes a vector of 3D points (each represented as a `std::array<int, 3>`) and sorts the vector **in-place** based on the Euclidean distance of each point from the origin (0, 0, 0).
+Implement a function that takes a vector of 3D points (each represented as a `std::array<double, 3>`) and sorts the vector **in-place** based on the Euclidean distance of each point from the origin (0, 0, 0).
 
 ### **Function Prototype:**
 
@@ -86,7 +86,7 @@ void sort_points_by_distance(std::vector<std::array<double, 3>>& points);
 -   **Example:**  
     Given the input:
     ```cpp
-    std::vector<std::array<int, 3>> points = { { {3, 4, 0} }, { {1, 1, 1} }, { {0, 0, 5} } };
+    std::vector<std::array<double, 3>> points = { { {3, 4, 0} }, { {1, 1, 1} }, { {0, 0, 5} } };
     ```
     After sorting, the vector should have points ordered from the closest to the farthest from the origin.
 
