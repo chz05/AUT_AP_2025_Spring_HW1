@@ -155,7 +155,7 @@ int main(int argc, char **argv)
 ```
 
 <p align="center">
-  <img src="./resource/Isnt_CPP_Fun.jpeg" alt="Say Hello To Other Errors" style="width: 50%;">
+  <img src="./resource/Isnt_CPP_Fun.jpeg" alt="Cpp is Hard but worth it." style="width: 50%;">
 </p>
 
 **Best Regards, [Hamidi](https://github.com/smhamidi)**
